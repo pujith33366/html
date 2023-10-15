@@ -1,0 +1,58 @@
+
+.back{
+    background-color:rgba(46, 238, 203, 0.848) ;
+    margin: 1px;
+    border-width:2px;
+    border-color: rgb(224, 158, 72);
+    border-style: solid;
+    padding: 15px;
+    padding-left:50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 9px;
+}
+.ddd{
+    align-items:center;
+}
+.sm a {
+    position: relative;
+    color:rgb(228, 82, 14);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight:400;
+    margin-left: 20px;
+    font-style: normal;
+}
+.lm{
+    align-items:flex-end;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.lm:hover {
+    position: 1px;
+}
+
+
+.sm .but{
+    width:100px;
+    height:30px;
+    border:2px solid;
+    border-radius:6px;
+    font-size:1.1em;
+    cursor:pointer;
+    color:rgb(228, 82, 14);
+    font-weight:400px;
+    margin-left: 20px;
+}
+#txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div.kp {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
